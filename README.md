@@ -1,0 +1,2 @@
+# RegionAndGifViewPager
+支持图片多区域点击,以及动态图的ViewPager
