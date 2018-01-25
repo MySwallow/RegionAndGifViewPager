@@ -9,6 +9,7 @@
 
     <com.swallow.feise.regionandgifviewpager.widget.CirculatoryViewPager
         android:id="@+id/cvp"
+        android:layout_centerInParent="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:defaultIcon="1"/>

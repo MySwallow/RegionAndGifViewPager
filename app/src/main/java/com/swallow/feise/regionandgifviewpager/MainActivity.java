@@ -53,9 +53,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setAttribute() {
-        int height = (int) (DeviceUtil.getDeviceWidth(this) * 100 / 267f);
-        RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, height);
-        bannerCvp.setLayoutParams(params);
+        int height = (int) (DeviceUtil.getDeviceWidth(this) * 140 / 267f);
+        bannerCvp.getLayoutParams().height = height;
         bannerCvp.setPageItemClickListener(bannerListener);
         showViewPager();
 
