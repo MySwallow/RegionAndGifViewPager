@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 轮播图设置底部点的样式 -->
+    <declare-styleable name="CirculatoryVp">
+        <attr name="defaultIcon" format="integer" />
+    </declare-styleable>
+</resources>
