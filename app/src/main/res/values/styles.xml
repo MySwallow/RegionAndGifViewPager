@@ -6,6 +6,16 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="text_size1">
+        <item name="android:textSize">14.2sp</item>
+    </style>
+
+    <style name="text_size2">
+        <item name="android:textSize">11.4sp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
 </resources>
